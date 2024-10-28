@@ -101,4 +101,104 @@
 #### **25. Indicador de Nivel de Humedad en OLED**
 - **Componentes**: DHT11, LED RGB, buzzer, OLED
 - **Descripción**: Muestra el nivel de humedad en la OLED y cambia el color del LED RGB según el nivel. El buzzer suena si está muy bajo.
+Aquí tienes los ejercicios del 26 al 50 que incluyen al menos cuatro componentes, incluyendo la fotorresistencia (LDR) y el motor a pasos. Estos ejercicios buscan desafiar a los estudiantes con escenarios creativos y útiles.
 
+#### **26. Control de Brillo con Potenciómetro y LDR**
+- **Componentes**: LDR, potenciómetro, LED RGB, OLED
+- **Descripción**: La intensidad del LED RGB se ajusta según la luz ambiental detectada por la LDR y el nivel del potenciómetro. La pantalla OLED muestra el nivel de brillo en tiempo real.
+
+#### **27. Control de Ventana de Invernadero con Motor a Pasos**
+- **Componentes**: DHT11, motor a pasos, LED RGB, OLED
+- **Descripción**: Controla la apertura de una "ventana" en función de la humedad, usando el motor a pasos para ajustar posiciones. El LED RGB cambia de color según el nivel de humedad, y la OLED muestra los valores actuales.
+
+#### **28. Sistema de Alarma para Cambio de Luz**
+- **Componentes**: LDR, buzzer, LED RGB, OLED
+- **Descripción**: La LDR detecta cambios drásticos en la luz. Si detecta un cambio brusco, el buzzer emite una alarma y el LED RGB se ilumina en rojo, mostrando los niveles de luz en la OLED.
+
+#### **29. Control de Giro de Motor a Pasos con Joystick**
+- **Componentes**: Joystick, motor a pasos, LED RGB, OLED
+- **Descripción**: Usa el joystick para controlar la dirección y el número de pasos del motor. El LED RGB cambia de color para indicar la dirección de giro, y la OLED muestra la posición del motor.
+
+#### **30. Semáforo Inteligente para Cruce Peatonal**
+- **Componentes**: LED RGB, LDR, botón, buzzer
+- **Descripción**: Simula un semáforo controlado por un botón que se activa solo si la luz ambiental es baja. Un buzzer emite una alerta si el peatón no cruza en el tiempo asignado.
+
+#### **31. Indicador de Nivel de Agua con Motor a Pasos y Sensor de Distancia**
+- **Componentes**: HC-SR04, motor a pasos, LED RGB, OLED
+- **Descripción**: Usa el sensor de distancia para medir el nivel de "agua" en un tanque, y ajusta un "indicador" con el motor a pasos. La OLED muestra el nivel en tiempo real y el LED RGB indica si el nivel está seguro.
+
+#### **32. Juego de Luz y Reflejos con LDR y Buzzer**
+- **Componentes**: LDR, buzzer, LED RGB, botón
+- **Descripción**: El juego inicia con el LED RGB parpadeando. El usuario debe cubrir la LDR al ver cierto color. El buzzer emite una alarma si falla y el juego se reinicia.
+
+#### **33. Control de Puerta con LDR y Motor a Pasos**
+- **Componentes**: LDR, motor a pasos, LED RGB, OLED
+- **Descripción**: La puerta se abre o cierra según la intensidad de luz detectada por la LDR. La OLED muestra el estado de la puerta y el LED RGB indica si está abierta o cerrada.
+
+#### **34. Sistema de Iluminación de Emergencia**
+- **Componentes**: LDR, LED RGB, buzzer, OLED
+- **Descripción**: Si la luz ambiente baja demasiado, el LED RGB se activa en blanco como iluminación de emergencia, y el buzzer emite un sonido de advertencia. La OLED muestra la intensidad de luz actual.
+
+#### **35. Sistema de Enfriamiento en Motor a Pasos**
+- **Componentes**: DHT11, motor a pasos, LED RGB, OLED
+- **Descripción**: Controla el "ventilador" usando el motor a pasos si la temperatura supera un umbral. La OLED muestra la temperatura y el LED RGB cambia de color según la intensidad de enfriamiento.
+
+#### **36. Indicador de Posición del Sol**
+- **Componentes**: LDR, motor a pasos, OLED, LED RGB
+- **Descripción**: La LDR detecta la intensidad de luz solar y el motor ajusta su posición simulando un panel solar. La OLED muestra el ángulo y el LED RGB indica el estado de captación solar.
+
+#### **37. Sistema de Iluminación de Pasillo con Buzzer**
+- **Componentes**: HC-SR04, LED RGB, buzzer, OLED
+- **Descripción**: Si se detecta a alguien en el pasillo, el LED RGB ilumina y el buzzer emite un sonido. La OLED muestra la distancia del objeto al sensor.
+
+#### **38. Indicador de Clima con LDR y Motor a Pasos**
+- **Componentes**: DHT11, LDR, motor a pasos, LED RGB
+- **Descripción**: El motor mueve una "persiana" según la luz ambiente y la temperatura. El LED RGB indica si el clima es favorable y la OLED muestra las lecturas.
+
+#### **39. Control de Intensidad de Luz con LDR**
+- **Componentes**: LDR, LED RGB, potenciómetro, OLED
+- **Descripción**: Ajusta la intensidad del LED RGB según la luz ambiental detectada y el valor del potenciómetro. La OLED muestra el nivel en tiempo real.
+
+#### **40. Indicador de Consumo con Motor a Pasos**
+- **Componentes**: Potenciómetro, motor a pasos, LED RGB, OLED
+- **Descripción**: El motor se mueve según el "nivel de consumo" ajustado en el potenciómetro. El LED RGB muestra un color de alerta y la OLED muestra el nivel actual.
+
+#### **41. Medidor de Proximidad con Alarma**
+- **Componentes**: HC-SR04, buzzer, LED RGB, OLED
+- **Descripción**: Si el objeto se acerca a cierta distancia, el LED RGB cambia a rojo y el buzzer emite una alarma. La OLED muestra la distancia actual.
+
+#### **42. Sistema de Temperatura con Indicador en Motor a Pasos**
+- **Componentes**: DHT11, motor a pasos, LED RGB, OLED
+- **Descripción**: Si la temperatura es alta, el motor gira para mover una "ventilación". La OLED muestra la temperatura, y el LED RGB cambia de color.
+
+#### **43. Indicador de Nivel de Luz en Potenciómetro**
+- **Componentes**: LDR, LED RGB, potenciómetro, buzzer
+- **Descripción**: Ajusta la intensidad del LED RGB según la luz ambiental y el valor del potenciómetro. Si la luz es muy baja, el buzzer emite una alerta.
+
+#### **44. Control de Apertura con Joystick y Motor a Pasos**
+- **Componentes**: Joystick, motor a pasos, LED RGB, buzzer
+- **Descripción**: Controla la apertura de una "puerta" con el joystick. El motor la abre o cierra según el movimiento del joystick, y el LED RGB muestra el estado de apertura.
+
+#### **45. Sistema de Iluminación de Seguridad en Oscuridad**
+- **Componentes**: LDR, LED RGB, buzzer, OLED
+- **Descripción**: Si la luz ambiente baja demasiado, el LED RGB se enciende en blanco y el buzzer emite una alarma de advertencia. La OLED muestra el estado de luz.
+
+#### **46. Panel de Control de Ventilación Automática**
+- **Componentes**: DHT11, motor a pasos, LED RGB, OLED
+- **Descripción**: Ajusta la posición del motor para abrir una "ventilación" en función de la temperatura. La OLED muestra el estado y el LED RGB indica si está en niveles óptimos.
+
+#### **47. Simulación de Semáforo Peatonal**
+- **Componentes**: LED RGB, botón, buzzer, OLED
+- **Descripción**: Crea un semáforo con botón para cambiar de verde a rojo. El buzzer suena al finalizar el tiempo, y la OLED muestra el estado del semáforo.
+
+#### **48. Indicador de Nivel de Humedad con LDR y Motor a Pasos**
+- **Componentes**: DHT11, motor a pasos, LDR, OLED
+- **Descripción**: La "ventilación" se ajusta según la humedad y luz detectadas. La OLED muestra las lecturas y el motor se mueve para cambiar el flujo de aire.
+
+#### **49. Detector de Movimiento en Pasillo**
+- **Componentes**: HC-SR04, LED RGB, buzzer, OLED
+- **Descripción**: Detecta a alguien en un pasillo y activa el LED RGB en rojo mientras el buzzer emite un sonido. La OLED muestra la distancia del objeto al sensor.
+
+#### **50. Indicador de Luz Solar para Paneles**
+- **Componentes**: LDR, motor a pasos, LED RGB, OLED
+- **Descripción**: Usa la LDR para detectar la luz solar, ajustando el motor a pasos para simular el movimiento de un panel solar. La OLED muestra el ángulo del panel, y el LED RGB indica si la captación de luz es óptima.
